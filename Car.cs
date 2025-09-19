@@ -19,11 +19,11 @@ namespace car2
         
         public void ShowInfo()
         {
-            Console.WriteLine($"Carinfo: {Brand}, {Color}, {MaxSpeed}");
+            Console.WriteLine($"Bilinfo: {Brand}, {Color}, {MaxSpeed}");
         }
         public void Drive()
         {
-            Console.WriteLine($"{Brand} is driving.");
+            Console.WriteLine($"{Brand} är körbar.");
         }
 
         public void Honk()
@@ -33,7 +33,7 @@ namespace car2
 
         public void Fuel()
         {
-            Console.WriteLine($"Car is fueled with {CarType}\n");
+            Console.WriteLine($"Bilen tankas med {CarType}\n");
 
             switch (CarType)
             {
@@ -56,11 +56,11 @@ namespace car2
         {
             if (otherCar.MaxSpeed > MaxSpeed)
             {
-                Console.WriteLine($"Car {otherCar.Brand} is faster\n");
+                Console.WriteLine($"Bilen {otherCar.Brand} är snabbast.\n");
             }
             else if (otherCar.MaxSpeed == MaxSpeed)
             {
-                Console.WriteLine($"They are equel");
+                Console.WriteLine($"Bilarna {otherCar.Brand} och {Brand} är lika snabba.");
             }
             else
             {

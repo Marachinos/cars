@@ -16,7 +16,7 @@ namespace car2
             Car volvo = new Car();
             volvo.Color = "Vit";
             volvo.Brand = "Volvo";
-            volvo.MaxSpeed = 200;
+            volvo.MaxSpeed = 250;
             volvo.HorsePower = 300;
             volvo.CarType = CarType.Diesel;
 
@@ -44,6 +44,8 @@ namespace car2
             tesla.Fuel();
 
             volvo.IsFasterThen(ferrari);
+            tesla.IsFasterThen(volvo);
+           
         }
     }
 }
