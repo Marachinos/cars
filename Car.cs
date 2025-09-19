@@ -64,7 +64,7 @@ namespace car2
             }
             else
             {
-                Console.WriteLine($"Car {Brand} quiest.");
+                Console.WriteLine($"Car {Brand} is quiest.");
             }
         }
 
