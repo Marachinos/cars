@@ -20,6 +20,14 @@ namespace car2
             volvo.HorsePower = 300;
             volvo.CarType = CarType.Diesel;
 
+            Car tesla = new Car();
+            tesla.Color = "Black";
+            tesla.Brand = "Tesla";
+            tesla.MaxSpeed = 250;
+            tesla.HorsePower = 400;
+            tesla.CarType = CarType.Electric;
+
+
             ferrari.ShowInfo();
             ferrari.Drive();
             ferrari.Honk();
@@ -29,6 +37,11 @@ namespace car2
             volvo.Drive();
             volvo.Honk();
             volvo.Fuel();
+
+            tesla.ShowInfo();
+            tesla.Drive();
+            tesla.Honk();
+            tesla.Fuel();
 
             volvo.IsFasterThen(ferrari);
         }
