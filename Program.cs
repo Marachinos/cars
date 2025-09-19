@@ -7,21 +7,21 @@ namespace car2
         static void Main(string[] args)
         {
             Car ferrari = new Car();
-            ferrari.Color = "Red";
+            ferrari.Color = "Röd";
             ferrari.Brand = "Ferrari";
             ferrari.MaxSpeed = 350;
             ferrari.HorsePower = 500;
             ferrari.CarType = CarType.Gas;
 
             Car volvo = new Car();
-            volvo.Color = "White";
+            volvo.Color = "Vit";
             volvo.Brand = "Volvo";
             volvo.MaxSpeed = 200;
             volvo.HorsePower = 300;
             volvo.CarType = CarType.Diesel;
 
             Car tesla = new Car();
-            tesla.Color = "Black";
+            tesla.Color = "Svart";
             tesla.Brand = "Tesla";
             tesla.MaxSpeed = 250;
             tesla.HorsePower = 400;
