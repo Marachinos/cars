@@ -19,7 +19,7 @@ namespace car2
         
         public void ShowInfo()
         {
-            Console.WriteLine($"Bilinfo: {Brand}, {Color}, {MaxSpeed}");
+            Console.WriteLine($"Bilinfo: {Brand}, {Color} färg, {MaxSpeed} km/h");
         }
         public void Drive()
         {
@@ -37,7 +37,7 @@ namespace car2
 
             switch (CarType)
             {
-                case CarType.Electric:
+                case CarType.El:
                     Console.WriteLine();
                     break;
                 case CarType.Gas:

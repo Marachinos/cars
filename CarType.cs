@@ -9,7 +9,7 @@ namespace car2
     
         internal enum CarType
         {
-            Electric,
+            El,
             Gas,
             Diesel,
             Hybrid

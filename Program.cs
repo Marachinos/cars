@@ -25,7 +25,7 @@ namespace car2
             tesla.Brand = "Tesla";
             tesla.MaxSpeed = 250;
             tesla.HorsePower = 400;
-            tesla.CarType = CarType.Electric;
+            tesla.CarType = CarType.El;
 
 
             ferrari.ShowInfo();
